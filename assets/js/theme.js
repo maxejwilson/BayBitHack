@@ -3,13 +3,13 @@ var theme = function () {
 
     // init default skin
     // -------------------------------------------------------------------------------------------
-    $(document).ready(function () {
-        if (!$('.theme-config').length) {
-            var color = 'light'; //  light, dark ...
-            var css = $('#theme-config-link');
-            css.attr('href', 'assets/css/theme-' + color + '.css');
-        }
-    });
+    // $(document).ready(function () {
+    //     if (!$('.theme-config').length) {
+    //         var color = 'light'; //  light, dark ...
+    //         var css = $('#theme-config-link');
+    //         css.attr('href', 'assets/css/theme-' + color + '.css');
+    //     }
+    // });
 
     // prevent empty links
     // ---------------------------------------------------------------------------------------

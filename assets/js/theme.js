@@ -214,8 +214,12 @@ var theme = function () {
         },
         // CountDown
         initCountDown: function () {
-            var austDay = new Date();
-            austDay = new Date(austDay.getFullYear() + 1, 1 - 1, 26);
+            // Change the following variables to change what it's counting down to.
+            var year = 2014;
+            var day = 25;
+            var month = 10;
+
+            var austDay = new Date(year, month-1, day);
             $('#defaultCountdown').countdown({until: austDay});
             $('#year').text(austDay.getFullYear());
         },

@@ -50,8 +50,8 @@ ob_start();
 <?php
 $body = ob_get_contents();
 
-$to = 'you@domain.com';
-$toname = 'Your Name';
+$to = 'info@baybithack.com';
+$toname = 'Max';
 //$anotheraddress = 'email@example.com';
 //$anothername = 'Another Name';
 
